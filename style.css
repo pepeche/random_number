@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+@media screen and (max-width : 844px){
+    
+    header{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    header h1{
+        font-size: 25px;
+        margin: 30px 20px 0px 20px;
+    }
+        
+    .main{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    hr{
+        width: 150px;
+        border: solid 1px;
+        margin: auto;
+        margin-top: 15px;
+        color:rgb(6, 89, 4);
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .button span{
+        min-height: 30px;
+        text-align: center;
+    }
+
+    .button_click{
+        margin-bottom: 15px;
+        padding: 15px;
+        color: white;
+        background-color:rgb(6, 89, 4);
+        border: none;
+        border-radius: 4px;
+    }
+
+    #result_button1, #result_button2{
+        font-size: 20px;
+        min-height: 50px;
+    }
+
+    .resultats{
+        margin-top: 20px;
+        text-align: center;
+        min-height: 200px;
+    }
+    .resultats span{
+        line-height: 3rem;
+        font-size: 14px;
+    }
+
+    .resultats h2{
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    .resultats hr{
+        margin-bottom: 10px;
+    }
+
+    .reload{
+        text-align: center;
+    }
+
+
+
+    footer{
+        background-color: rgb(6, 89, 4);;
+        height: 60px;
+        color: white;
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    footer p {
+        padding: 14px;
+    }
+}
+
+@media screen and (min-width : 845px){
+    header{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    header h1{
+        font-size: 30px;
+        margin: 30px 20px 0px 20px;
+    }
+        
+    .main{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    hr{
+        width: 150px;
+        border: solid 1px;
+        margin: auto;
+        margin-top: 15px;
+        color:rgb(6, 89, 4);
+    }
+    
+    .button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    .button span{
+        min-width: 300px;
+        text-align: center;
+    }
+    
+    .button_click{
+        margin-bottom: 15px;
+        padding: 15px;
+        color: white;
+        background-color:rgb(6, 89, 4);
+        border: none;
+        border-radius: 4px;
+    }
+    
+    #result_button1, #result_button2{
+        font-size: 20px;
+        min-height: 60px;
+    }
+    
+    .resultats{
+        margin-top: 40px;
+        text-align: center;
+        min-height: 250px;
+    }
+    .resultats span{
+        line-height: 3rem;
+        font-size: 18px;
+    }
+    
+    .resultats h2{
+        margin-bottom: 10px;
+        font-size: 27px;
+    }
+    .resultats hr{
+        margin-bottom: 30px;
+    }
+    
+    .reload{
+        text-align: center;
+    }
+    
+    
+    
+    footer{
+        background-color: rgb(6, 89, 4);
+        min-height: 50px;
+        color: white;
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    footer p {
+        margin: auto;
+    }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <H1>Calcul automatiquement 2 nombre aléatoire !</H1>
+        <hr>
+    </header>
+    <main class="main">
+        <div class="button">
+            
+            <button class="button_click" id="button_1" onclick="button1">Générer un premier nombre</button>
+            <span id="result_button1"></span>
+
+            <button class="button_click" id="button_2" onclick="button2">Générer un second nombre</button>
+            <span id="result_button2"></span>
+
+            <button class="button_click" id="calculer" onclick="calculer">Calculer</button>
+
+        </div>
+        <div class="resultats">
+            <h2>Résultats</h2>
+            <hr>
+            <span id= "resultat_multiply"></span>
+            <br>
+            <span id= "resultat_divider"></span>
+            <br>
+            <span id= "resultat_addition"></span>
+            <br>
+            <span id= "resultat_soustraire"></span>
+        </div>
+        <div class="reload">
+            <button class="button_click" id="clear" onclick="window.location.reload()">Nouveau calcul</button>
+        </div>
+        
+
+    </main>
+    <script src="app.js"></script>
+</body>
+<footer>
+    <p>© Vincent Péchon 2022</p>
+</footer>
+</html>
